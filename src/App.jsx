@@ -1,8 +1,14 @@
 import React from 'react'
+import styles from "./style"
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-    Hello cookie
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+      Hello cookie
+      </div>
+    </div>
+    
   </div>
   )
 
